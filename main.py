@@ -2,7 +2,7 @@ import os
 from utils import generate_key, encrypt_file, decrypt_file
 
 def main():
-    # Ensure data folder exists
+    
     os.makedirs("data", exist_ok=True)
     
     while True:
